@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>BootstrapZER</name>
+	<author>JoomlArt.com</author>
+	<creationDate>December 09, 2015</creationDate>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@joomlart.com</authorEmail>
+	<authorUrl>http://www.t3-framework.org</authorUrl>
+	<version>2.5.2</version>
+	<description>
+	FALTA PONER LA DESCRIPCIÓN
+	</description>
+	<files>
+		<filename plugin="bootstrapzer">bootstrapzer.php</filename>
+		<filename>index.html</filename>
+		<folder>src</folder>
+		<folder>joomla</folder>
+		<folder>fw-web</folder>
+		<folder>language</folder>
+		<folder>sql</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_bootstrapzer.ini</language>
+		<language tag="es-ES">es-ES/es-ES.plg_system_bootstrapzer.ini</language>
+	</languages>
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<config>
+		<fields name="params">
+			<fieldset name="authentication" label="DGQ_PLUGIN_AUTH">
+				<field name="dgq_auth_cookie"
+					   type="radio"
+					   class="btn-group btn-group-yesno"
+					   default="0"
+					   label="DGQ_PLUGIN_AUTH_COOKIE_LABEL"
+					   description="DGQ_PLUGIN_AUTH_COOKIE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="dgq_auth_expire"
+					   type="radio"
+					   class="btn-group btn-group-yesno"
+					   default="0"
+					   label="DGQ_PLUGIN_AUTH_EXPIRE_LABEL"
+					   description="DGQ_PLUGIN_AUTH_EXPIRE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="dgq_auth_cooktime"
+					   type="text"
+					   default="60"
+					   label="DGQ_PLUGIN_AUTH_TIME_LABEL"
+					   description="DGQ_PLUGIN_AUTH_TIME_DESC"/>
+
+			</fieldset>
+			<fieldset name="articles" label="DGQ_PLUGIN_ARTICLE">
+
+				<field name="dgq_art_cmm_perpage"
+					   type="text"
+					   default="10"
+					   label="DGQ_PLUGIN_ARTICLE_COMMENTS_PERPAGE_LABEL"
+					   description="DGQ_PLUGIN_ARTICLE_COMMENTS_PERPAGE_DESC"/>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

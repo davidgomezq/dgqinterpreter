@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="bootstrapzer_params" label="DGQ - Bootstrapzer">
+            <field name="dgq_layout_style" type="text"
+                   label="DGQ_STYLE_LABEL"
+                   description="DGQ_STYLE_DESC"/>
+
+            <field name="dgq_item_tag" type="text"
+                   label="DGQ_RELATED_TAG_LABEL"
+                   description="DGQ_RELATED_TAG_DESC"/>
+
+            <field name="dgq_divider"
+                   type="radio"
+                   class="btn-group btn-group-yesno"
+                   default="0"
+                   label="DGQ_MENU_DIVIDER_LABEL"
+                   description="DGQ_MENU_DIVIDER_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="dgq_subtitle"
+                   type="radio"
+                   class="btn-group btn-group-yesno"
+                   default="0"
+                   label="DGQ_MENU_SUBTITLE_LABEL"
+                   description="DGQ_MENU_SUBTITLE_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+        </fieldset>
+    </fields>
+</form>

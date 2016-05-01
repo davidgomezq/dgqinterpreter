@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="params" label="DGQ_TAB">
+            <field name="dgq_amount"
+                   type="text"
+                   default="10"
+                   label="DGQ_CATEGORY_AMOUNT_LABEL" />
+
+            <field name="dgq_tag"
+                   type="text"
+                   default=""
+                   label="DGQ_RELATED_TAG_LABEL"
+                   description="DGQ_RELATED_TAG_DESC"/>
+
+            <field name="dgq_parent_class"
+                   type="text"
+                   default=""
+                   label="DGQ_PLUGIN_FIRST_CLASS_LABEL"
+                   description="DGQ_PLUGIN_FIRST_CLASS_DESC" />
+
+            <field name="dgq_id_rel"
+                   type="text"
+                   default=""
+                   label="DGQ_PLUGIN_FIRST_ID_LABEL"
+                   description="DGQ_PLUGIN_FIRST_ID_DESC" />
+
+            <field name="dgq_button1_name" type="text" label="DGQ_ARTICLE_BUTTON1_NAME_LABEL"/>
+            <field name="dgq_button1_css" type="text" label="DGQ_ARTICLE_BUTTON1_CSS_LABEL"/>
+            <field name="dgq_button1_link" type="text"
+                   label="DGQ_ARTICLE_BUTTON1_LINK_LABEL"
+                   description="DGQ_ARTICLE_BUTTON_LINK_DESC"/>
+
+            <field name="dgq_button2_name" type="text" label="DGQ_ARTICLE_BUTTON2_NAME_LABEL"/>
+            <field name="dgq_button2_css" type="text" label="DGQ_ARTICLE_BUTTON2_CSS_LABEL"/>
+            <field name="dgq_button2_link" type="text"
+                   label="DGQ_ARTICLE_BUTTON2_LINK_LABEL"
+                   description="DGQ_ARTICLE_BUTTON_LINK_DESC"/>
+
+            <field name="dgq_button3_name" type="text" label="DGQ_ARTICLE_BUTTON3_NAME_LABEL"/>
+            <field name="dgq_button3_css" type="text" label="DGQ_ARTICLE_BUTTON3_CSS_LABEL"/>
+            <field name="dgq_button3_link" type="text"
+                   label="DGQ_ARTICLE_BUTTON3_LINK_LABEL"
+                   description="DGQ_ARTICLE_BUTTON_LINK_DESC"/>
+        </fieldset>
+    </fields>
+</form>

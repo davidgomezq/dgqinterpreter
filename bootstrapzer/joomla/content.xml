@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="attribs">
+        <fieldset name="params" label="DGQ - Bootstrapzer">
+            <field name="dgq_layout_style" type="text"
+                   label="DGQ_STYLE_LABEL"
+                   description="DGQ_STYLE_DESC" />
+
+            <field name="dgq_art_tag" type="text"
+                   label="DGQ_ARTICLE_TAG_LABEL"
+                   description="DGQ_ARTICLE_TAG_DESC" />
+
+            <field name="dgq_art_img_url" type="text"
+                   label="DGQ_ARTICLE_IMG_SLIDER_LABEL"
+                   description="DGQ_ARTICLE_IMG_SLIDER_DESC" />
+
+            <field name="dgq_button1_name" type="text" label="DGQ_ARTICLE_BUTTON1_NAME_LABEL"/>
+            <field name="dgq_button1_css" type="text" label="DGQ_ARTICLE_BUTTON1_CSS_LABEL"/>
+            <field name="dgq_button1_link" type="text"
+                   label="DGQ_ARTICLE_BUTTON1_LINK_LABEL"
+                   description="DGQ_ARTICLE_BUTTON_LINK_DESC"/>
+
+            <field name="dgq_button2_name" type="text" label="DGQ_ARTICLE_BUTTON2_NAME_LABEL"/>
+            <field name="dgq_button2_css" type="text" label="DGQ_ARTICLE_BUTTON2_CSS_LABEL"/>
+            <field name="dgq_button2_link" type="text"
+                   label="DGQ_ARTICLE_BUTTON2_LINK_LABEL"
+                   description="DGQ_ARTICLE_BUTTON_LINK_DESC"/>
+
+            <field name="dgq_button3_name" type="text" label="DGQ_ARTICLE_BUTTON3_NAME_LABEL"/>
+            <field name="dgq_button3_css" type="text" label="DGQ_ARTICLE_BUTTON3_CSS_LABEL"/>
+            <field name="dgq_button3_link" type="text"
+                   label="DGQ_ARTICLE_BUTTON3_LINK_LABEL"
+                   description="DGQ_ARTICLE_BUTTON_LINK_DESC"/>
+        </fieldset>
+    </fields>
+</form>
